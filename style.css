@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f0f0f0;
+	margin: 0;
+}
+
+#naw{
+	background-color: #333;
+	padding: 14px;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	-webkit-box-shadow: 0px 2px 17px 2px rgba(0,0,0,0.56);
+	-moz-box-shadow: 0px 2px 17px 2px rgba(0,0,0,0.56);
+	box-shadow: 0px 2px 17px 2px rgba(0,0,0,0.56);
+}
+
+#naw a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px;
+}
+
+#naw a:hover{
+	color: black;
+	background-color: #daebe8;
+}
+
+#brgmenu{
+	text-decoration: none;
+	color: #f2f2f2;
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+	cursor: pointer;
+	display: none;
+}
+
+#brgmenu:hover{
+	color: black;
+	background-color: #daebe8;
+}
+
+#about{
+	margin-top: 35px;
+	width: 80%;
+	text-align: justify;
+	font-size: 17px;
+	line-height: 125%;
+	letter-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 45px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#team{
+	margin-top: 25px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col{
+
+	width: 50%;
+	float: left;
+	padding: 30px;
+}
+
+@media only screen and (min-width: 992px){
+	.col{
+		width: 25%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.col{
+		width: 100%;
+	}
+}
+
+.card{
+	border: 1px solid #ddfff8;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.56);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.56);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.56);
+	background-color: white;
+}
+
+.opis{
+	padding: 10px;
+	text-align: center;
+}
