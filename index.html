@@ -19,6 +19,7 @@
 	<a href="#"> About </a>
 	<a href="#"> Team </a>
 	<a href="#"> Cennik </a>
+	<a href="#"> Contact </a>
 	<a href="#"> Info </a>
 	<span id="brgmenu">Burger menu tutaj</span>
 </div>
@@ -38,7 +39,7 @@
 			<div class="card">
 				<img src="photo/tmember.png"alt="team member" style="width: 100%">
 				<div class="opis">
-				<h1>Jan Kowaskii</h1>
+				<h1>Jan Kowaski</h1>
 				<i>Trener personalny</i>
 				<p>Trochę tekstu opisującego tego trenera personalnego</p>
 				</div>
@@ -131,17 +132,38 @@
 						<li>karnety na ilość wejść</li>
 					</ul>
 				</div>
-				 <button class="price_list_tile_btn"> 120zł / Miesięcznie</button>
+				 <button class="price_list_tile_btn"> 60zł / Miesięcznie</button>
 			</div>
 		</div>
 		
 			<div style="clear: both;"></div>
 	</div>
 
-	as
-	<div id="info"></div>
+	<div class="contact">
+		<div class="formcnt">
+			<form>
+
+				<h2>Masz pytanie?</h2>
+				<p>Napisz do nas!</p>
+				<label for ="fname"> Podaj Imię </label>
+				<input type="text" id="fname" name="fistname" placeholder="Twoje imię.. " onfocus="this.placeholder='' " onblur="this.placeholder='Twoje imię..'">				
+				
+				<label for ="lname"> Podaj Nazwisko </label>
+				<input type="text" id="lname" name="lastname"  placeholder="Twoje nazwisko.." onfocus="this.placeholder='' " onblur="this.placeholder='Twoje nazwisko..'">
+				
+				<label for ="email"> Podaj E-mail </label>
+				<input type="text" id="email" name="email" placeholder="Twój e-mail.." onfocus="this.placeholder='' " onblur="this.placeholder='Twój e-mail'">
+				
+				<label for ="temat" > O co chcesz zaptyać? </label>
+				<textarea id="temat" name="subject" rows="5" > </textarea>
+				
+				<input type="submit" value="Wyślij"> 
+				
+			</form>
+		</div>
+	</div>
 	
-	<div id="footer"></div>
+	<div id="footer">text</div>
 	
 </div>
 <script>
